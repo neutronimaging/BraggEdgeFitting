@@ -4,7 +4,7 @@ from qtpy import QtGui
 from collections import OrderedDict
 
 from __code._utilities.array import check_size
-from __code.bragg_edge.get import Get
+from __code.get import Get
 
 
 class BraggEdgeSelectionTab:

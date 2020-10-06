@@ -3,9 +3,9 @@ from qtpy.QtWidgets import QFileDialog
 import numpy as np
 from collections import OrderedDict
 
-from __code.bragg_edge.get import Get
+from __code.get import Get
 from __code.file_handler import make_ascii_file
-from __code.bragg_edge.bragg_edge_peak_fitting_gui_utility import GuiUtility
+from __code.bragg_edge_peak_fitting_gui_utility import GuiUtility
 
 
 class ExportHandler:

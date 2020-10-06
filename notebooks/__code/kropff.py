@@ -5,10 +5,10 @@ from pathlib import Path
 import pyqtgraph as pg
 
 from __code.table_handler import TableHandler
-from __code.bragg_edge.bragg_edge_peak_fitting_gui_utility import GuiUtility
-from __code.bragg_edge.kropff_fitting_job_handler import KropffFittingJobHandler
+from __code.bragg_edge_peak_fitting_gui_utility import GuiUtility
+from __code.kropff_fitting_job_handler import KropffFittingJobHandler
 from __code.file_handler import make_ascii_file_from_2dim_array
-from __code.bragg_edge.get import Get
+from __code.get import Get
 from __code._utilities.dictionary import key_path_exists_in_dictionary
 from __code.utilities import find_nearest_index
 

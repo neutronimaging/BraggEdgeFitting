@@ -23,7 +23,7 @@ from NeuNorm.normalization import Normalization
 from NeuNorm.roi import ROI
 
 from __code import file_handler
-from __code.bragg_edge.bragg_edge import BraggEdge as BraggEdgeParent
+from __code.bragg_edge import BraggEdge as BraggEdgeParent
 from __code.file_folder_browser import FileFolderBrowser
 from __code import ipywe
 

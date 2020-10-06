@@ -4,12 +4,11 @@ import numpy as np
 from collections import OrderedDict
 
 from __code.file_handler import read_bragg_edge_fitting_ascii_format
-from __code.bragg_edge.peak_fitting_initialization import PeakFittingInitialization
-from __code.bragg_edge.fitting_functions import kropff_high_lambda, kropff_low_lambda, kropff_bragg_peak_tof
-from __code.bragg_edge.bragg_edge_peak_fitting_gui_utility import GuiUtility
-from __code.bragg_edge.bragg_edge_selection_tab import BraggEdgeSelectionTab
-from __code.bragg_edge.kropff import Kropff
-from __code.bragg_edge.march_dollase import MarchDollase
+from __code.peak_fitting_initialization import PeakFittingInitialization
+from __code.fitting_functions import kropff_high_lambda, kropff_low_lambda, kropff_bragg_peak_tof
+from __code.bragg_edge_peak_fitting_gui_utility import GuiUtility
+from __code.bragg_edge_selection_tab import BraggEdgeSelectionTab
+from __code.kropff import Kropff
 
 
 class ImportHandler:

@@ -1,6 +1,7 @@
 import numpy as np
 from qtpy import QtGui
 
+
 class TableHandler:
 
 	cell_str_format = "{:.3f}"

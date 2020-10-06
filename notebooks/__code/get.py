@@ -1,6 +1,6 @@
 import numpy as np
 
-from __code.bragg_edge.bragg_edge_peak_fitting_gui_utility import GuiUtility
+from __code.bragg_edge_peak_fitting_gui_utility import GuiUtility
 from __code.selection_region_utilities import SelectionRegionUtilities
 
 

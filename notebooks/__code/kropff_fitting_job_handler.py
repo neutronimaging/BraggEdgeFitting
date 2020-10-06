@@ -2,8 +2,8 @@ from lmfit import Model, Parameter
 from copy import deepcopy
 import numpy as np
 
-from __code.bragg_edge.fitting_functions import kropff_high_lambda, kropff_low_lambda, kropff_bragg_peak_tof
-from __code.bragg_edge.bragg_edge_peak_fitting_gui_utility import GuiUtility
+from __code.fitting_functions import kropff_high_lambda, kropff_low_lambda, kropff_bragg_peak_tof
+from __code.bragg_edge_peak_fitting_gui_utility import GuiUtility
 
 
 class KropffFittingJobHandler:

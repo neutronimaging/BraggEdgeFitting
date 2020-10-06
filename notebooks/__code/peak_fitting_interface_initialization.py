@@ -11,8 +11,8 @@ from qtpy import QtGui
 import pyqtgraph as pg
 
 from __code.table_handler import TableHandler
-from __code.bragg_edge.mplcanvas import MplCanvas
-from __code.bragg_edge.bragg_edge_peak_fitting_gui_utility import GuiUtility
+from __code.mplcanvas import MplCanvas
+from __code.bragg_edge_peak_fitting_gui_utility import GuiUtility
 
 
 class Initialization:
